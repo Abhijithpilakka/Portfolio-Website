@@ -74,5 +74,10 @@ body{
 
 .instagram,.linkedin,.github{
     cursor: pointer;
+    color: aliceblue;
+    transition: 0.5s;
 }
 
+.instagram:hover,.linkedin:hover,.github:hover{
+    color: rgb(84, 110, 121);
+}
