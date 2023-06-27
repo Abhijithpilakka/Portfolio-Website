@@ -5,17 +5,22 @@
     font-family: 'Poppins',Arial;
 }
 
-header{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #132E35 0%, #0D1F23 100%);
+}
+.header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 30px 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 90;
-    background-color: black;
+    align-items: center;   
     z-index: 99;
 }
 
@@ -24,11 +29,50 @@ header{
     font-size: 14px;
     color: aliceblue;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 300;
     margin-left: 40px;
+    
+
+}
+
+.Navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 1.5px;
+    background: aliceblue;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+
+}
+
+.Navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
 
 }
 
 .logo{
     color: aliceblue;
 }
+
+.linkicons{
+    display: grid;
+    width: 30px;
+    color: aliceblue;
+    row-gap: 20px;
+    position: absolute;
+    top: -300;
+    right: 0;
+    margin-right: 15px;
+}
+
+
+.instagram,.linkedin,.github{
+    cursor: pointer;
+}
+
