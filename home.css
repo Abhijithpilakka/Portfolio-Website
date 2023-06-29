@@ -81,3 +81,30 @@ body{
 .instagram:hover,.linkedin:hover,.github:hover{
     color: rgb(84, 110, 121);
 }
+
+
+.title1{
+    position:  absolute;
+    left: 180px;
+    top: 250px;
+}
+
+.im{
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    opacity: 60%;
+}
+
+
+.title2{
+    position: absolute;
+    left: 150px;
+    top: 290px;
+}
+
+.Abhijith{
+    font-size: 80px;
+    font-weight: 500;
+    color: aliceblue;
+}
