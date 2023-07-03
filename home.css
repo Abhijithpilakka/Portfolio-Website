@@ -108,3 +108,10 @@ body{
     font-weight: 500;
     color: aliceblue;
 }
+
+.blocks{
+    display: flex;
+    column-gap: 20px;
+    background-color: aliceblue;
+    opacity: 20%;
+}
