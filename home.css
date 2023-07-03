@@ -110,8 +110,19 @@ body{
 }
 
 .blocks{
-    display: flex;
+    display: grid;
     column-gap: 20px;
-    background-color: aliceblue;
+  
     opacity: 20%;
+    grid-template-columns: 1fr 1fr;
+    height: 60px;
+    justify-content: center;
+    
 }
+
+.b1, .b2{
+
+    background-color: aliceblue;
+    opacity: 30%;
+}
+
