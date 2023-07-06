@@ -6,11 +6,16 @@
 }
 
 body{
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #132E35 0%, #0D1F23 100%);
+    padding-bottom: 400px;
+}
+
+.landingpage{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: radial-gradient(50% 50.00% at 50% 50.00%, #132E35 0%, #0D1F23 100%);
+    
 }
 .header{
     position: fixed;
@@ -107,6 +112,37 @@ body{
     font-size: 80px;
     font-weight: 500;
     color: aliceblue;
+}
+
+.experiencetab{
+    width: 1200px;
+    height: 170px;
+    flex-shrink: 0;
+    border-radius: 49px;
+    border: 1px;
+    background: rgba(217, 217, 217, 0.45);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(7.5px);
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.exp{
+    color: #E8EEF3;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 
