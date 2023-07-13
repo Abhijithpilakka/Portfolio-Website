@@ -1,44 +1,12 @@
-.projecttab{
-    width: 1200px;
-    height:460px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    border: 1px;
-    background: rgba(217, 217, 217, 0.1);
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(7.5px);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 80px;
-    padding-top: 40px;
-    }
-
-.projectgrid{
+.exp{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 80px;
-
-}
-
-.exp1:hover, .exp2:hover, .exp3:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.15);
+    grid-template-columns: 1fr;
+    height: 600px;
+    width: 600px;
+    background: black;
     
 }
 
-.project{
-background-color: aliceblue;
-height: 200px;
-opacity: 20%;
-border-radius: 20px;
-
-}
-
-.projecttitle{
-    height: 80px;
-    text-align: center;
-    margin-bottom: 50px;
+#about-page{
+    padding: 0;
 }

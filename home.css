@@ -6,11 +6,11 @@
 }
 
 body{
-    background: white;
-    padding-bottom: 400px;
+    background: rgb(255, 255, 255);
+    
 }
 
-.landingpage{
+#landingpage{
     display: flex;
    
     align-items: center;
@@ -28,8 +28,8 @@ body{
     align-items: center;   
     z-index: 99;
     backdrop-filter: blur(20px);
-    
-    --globalnav-backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(255, 255, 255, 0.2);
+   
 }
 
 .Navigation a{
@@ -39,53 +39,26 @@ body{
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
-    
+    transition: 0.4s;
 
 }
 
-.Navigation a::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 100%;
-    height: 1.5px;
-    background: aliceblue;
-    border-radius: 5px;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.5s;
+.Navigation a:hover{
+    transform: scale(0.9);
 
 }
 
-.Navigation a:hover::after{
-    transform-origin: left;
-    transform: scaleX(1);
 
-}
+
+
 
 .logo{
     color: black;
     font-size: 30px;
 }
 
-.linkicons{
-    display: grid;
-    grid-template-columns: 25px 25px 25px;
-    color: black;
-    column-gap: 12px;
-    position: absolute;
-    top: 510px;
-    left: 300px;
-    
-    z-index: 98;
-    height: 40px;
-}
 
-
-
-
-.instagram,.linkedin,.github{
+.linkedin,.github{
     width: 25px;
     height: 25px;
     cursor: pointer;
@@ -94,18 +67,38 @@ body{
     
 }
 
-.instagram:hover,.linkedin:hover,.github:hover{
+.linkedin:hover,.github:hover{
     opacity: 80%;
     transform: scale(0.8);
     text-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
 }
 
 
+.linkicons{
+    display: grid;
+    grid-template-columns: 25px 25px 25px;
+    color: black;
+    column-gap: 12px;
+    position: absolute;
+    top: 490px;
+    left: 260px;
+    
+    z-index: 98;
+    height: 40px;
+}
+
 .title1{
     position:  absolute;
-    left: 320px;
-    top: 350px;
+    left: 280px;
+    top: 330px;
 }
+
+.title2{
+    position: absolute;
+    left: 260px;
+    top: 370px;
+}
+
 
 .im{
     font-size: 30px;
@@ -115,11 +108,7 @@ body{
 }
 
 
-.title2{
-    position: absolute;
-    left: 250px;
-    top: 390px;
-}
+
 
 .Abhijith{
     font-size: 80px;
@@ -185,3 +174,64 @@ body{
     background-color: linear-gradient(180deg, #BC9835 0%, #E8D974 41.67%, #DDC15D 100%);
 }
 
+.bottomtab{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    z-index: 99;
+    backdrop-filter: blur(20px);
+    z-index: 9;
+    background: rgba(65, 97, 109, 0.4); 
+}
+
+
+.about{
+    width: 500px;
+    text-align: justify;
+    position: absolute;
+    left: 700px;
+    top: 1100px;
+}
+
+.resume{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    width: 150px;
+    border-radius: 6px;
+    border-color: black;
+    position: absolute;
+    left: 700px;
+    top: 1480px;
+    text-align: center;
+    transition: 0.4s;
+
+}
+
+.contact{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding-left: 10px;
+    width: 150px;
+    border-radius: 6px;
+    border-color: black;
+    position: absolute;
+    left: 860px;
+    top: 1480px;
+    text-align: center;
+    transition: 0.4s;
+
+}
+
+.resume:hover, .contact:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
