@@ -6,7 +6,7 @@
 }
 
 body{
-    background: radial-gradient(50% 50.00% at 50% 50.00%, #132E35 0%, #0D1F23 100%);
+    background: white;
     padding-bottom: 400px;
 }
 
@@ -22,22 +22,22 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 40px;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;   
     z-index: 99;
-    background: #0D1F23;
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(20px);
     
+    --globalnav-backdrop-filter: saturate(180%) blur(20px);
 }
 
 .Navigation a{
     position: relative;
     font-size: 14px;
-    color: aliceblue;
+    color: black;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 500;
     margin-left: 40px;
     
 
@@ -65,29 +65,31 @@ body{
 }
 
 .logo{
-    color: aliceblue;
+    color: black;
     font-size: 30px;
 }
 
 .linkicons{
     display: grid;
     grid-template-columns: 25px 25px 25px;
-    color: aliceblue;
+    color: black;
     column-gap: 12px;
     position: absolute;
     top: 510px;
     left: 300px;
     
-    z-index: 100;
+    z-index: 98;
     height: 40px;
 }
+
+
 
 
 .instagram,.linkedin,.github{
     width: 25px;
     height: 25px;
     cursor: pointer;
-    color: aliceblue;
+    color: black;
     transition: 0.5s;
     
 }
@@ -108,7 +110,7 @@ body{
 .im{
     font-size: 30px;
     font-weight: 500;
-    color: aliceblue;
+    color:rgb(48, 47, 47);
     opacity: 60%;
 }
 
@@ -122,7 +124,7 @@ body{
 .Abhijith{
     font-size: 80px;
     font-weight: 500;
-    color: aliceblue;
+    color:black;
    
 }
 
@@ -130,7 +132,7 @@ body{
     position: fixed;
     right: 0;
     z-index: 0;
-    mix-blend-mode: overlay;
+    
 }
 
 
