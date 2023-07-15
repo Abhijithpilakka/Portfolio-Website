@@ -24,22 +24,22 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px 40px;
+    padding: 8px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;   
     z-index: 99;
     backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.7);
    
 }
 
 .Navigation a{
     position: relative;
-    font-size: 14px;
-    color: black;
+    font-size: 12px;
+    color: rgb(45, 45, 45);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     margin-left: 40px;
     transition: 0.4s;
 
@@ -47,7 +47,8 @@ body{
 
 .Navigation a:hover{
     transform: scale(0.9);
-
+    color: rgb(0, 0, 0);
+    font-weight: 500;
 }
 
 
@@ -55,8 +56,8 @@ body{
 
 
 .logo{
-    color: black;
-    font-size: 30px;
+    color: rgb(45, 45, 45);
+    font-size: 20px;
 }
 
 
@@ -127,49 +128,6 @@ body{
 }
 
 
-.experiencetab{
-    width: 1200px;
-    height: 170px;
-    flex-shrink: 0;
-    border-radius: 25px;
-    border: 1px;
-    background: rgba(217, 217, 217, 0.1);
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(7.5px);
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 50px;
-    padding-right: 30px;
-}
-
-
-.exp{
-    color: #E8EEF3;
-    font-family: 'Poppins', Arial;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    display: inline-block;
-    margin-left: 50px;
-}
-
-.line{
-    width: 2px;
-    height: 125px;
-    flex-shrink: 0;
-    background: #5A636A;
-    
-    
-}
-
-.experience{
-    display: flex;
-    flex-direction: row;
-}
 
 .logoA{
     font-style: italic;
@@ -193,47 +151,3 @@ body{
 }
 
 
-.about{
-    width: 500px;
-    text-align: justify;
-    position: absolute;
-    left: 700px;
-    top: 1100px;
-}
-
-.resume{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    padding-left: 10px;
-    width: 150px;
-    border-radius: 6px;
-    border-color: black;
-    position: absolute;
-    left: 700px;
-    top: 1480px;
-    text-align: center;
-    transition: 0.4s;
-
-}
-
-.contact{
-    background-color: white;
-    color: black;
-    padding: 10px;
-    padding-left: 10px;
-    width: 150px;
-    border-radius: 6px;
-    border-color: black;
-    position: absolute;
-    left: 860px;
-    top: 1480px;
-    text-align: center;
-    transition: 0.4s;
-
-}
-
-.resume:hover, .contact:hover{
-    cursor: pointer;
-    transform: scale(0.95);
-}

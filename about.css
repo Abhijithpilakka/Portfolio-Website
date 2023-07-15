@@ -1,0 +1,57 @@
+#about-page{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    background: rgb(20, 20, 20);
+
+}
+
+.about{
+    width: 500px;
+    text-align: justify;
+    position: absolute;
+    left: 700px;
+    top: 1100px;
+    color: rgb(232, 232, 232);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.resume{
+    background-color: black;
+    color: rgb(232, 232, 232);
+    padding: 10px;
+    padding-left: 10px;
+    width: 150px;
+    border-radius: 6px;
+    border-color: black;
+    position: absolute;
+    left: 700px;
+    top: 1480px;
+    text-align: center;
+    transition: 0.4s;
+
+}
+
+.contact{
+    background-color: rgb(232, 232, 232);
+    color: black;
+    padding: 10px;
+    padding-left: 10px;
+    width: 150px;
+    border-radius: 6px;
+    border-color: black;
+    position: absolute;
+    left: 860px;
+    top: 1480px;
+    text-align: center;
+    transition: 0.4s;
+
+}
+
+.resume:hover, .contact:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
