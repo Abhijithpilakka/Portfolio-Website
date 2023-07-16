@@ -4,15 +4,26 @@
     display: flex;
     min-height: 100vh;
     background: rgb(20, 20, 20);
+    position: relative;
 
+}
+
+.about-block{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 30px;
+    row-gap: 30px;
+    width: 500px;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    align-self: center;
+    margin-right: 100px;
 }
 
 .about{
     width: 500px;
     text-align: justify;
-    position: absolute;
-    left: 700px;
-    top: 1100px;
     color: rgb(232, 232, 232);
     font-weight: 300;
     font-size: 14px;
@@ -26,13 +37,11 @@
     padding-left: 10px;
     width: 150px;
     border-radius: 6px;
-    border-color: black;
-    position: absolute;
-    left: 700px;
-    top: 1480px;
+    border: none;
     text-align: center;
     transition: 0.4s;
-
+    outline: none;
+    margin-right: 20px;
 }
 
 .contact{
@@ -42,10 +51,8 @@
     padding-left: 10px;
     width: 150px;
     border-radius: 6px;
-    border-color: black;
-    position: absolute;
-    left: 860px;
-    top: 1480px;
+    border: none;
+    outline: none;
     text-align: center;
     transition: 0.4s;
 
