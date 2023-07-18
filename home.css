@@ -19,6 +19,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #dde1e7;
+    overflow: hidden;
 }
 .header{
     position: fixed;

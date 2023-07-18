@@ -7,6 +7,7 @@
     min-height: 100vh;
     position: relative;
     background: #dde1e7;
+    overflow: hidden;
 }
 
 .expblock{
