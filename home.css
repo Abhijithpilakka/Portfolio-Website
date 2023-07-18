@@ -9,15 +9,16 @@
 
 body{
     background: rgb(255, 255, 255);
+   
     
 }
 
 #landingpage{
     display: flex;
-   
+    position: relative;
     align-items: center;
     min-height: 100vh;
-    
+    background: #dde1e7;
 }
 .header{
     position: fixed;
@@ -51,7 +52,20 @@ body{
     font-weight: 500;
 }
 
+.pic{
+    height: auto;
+    width: 500px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
 
+img{
+    width: 100%;
+}
 
 
 
@@ -120,14 +134,6 @@ body{
    
 }
 
-.pic{
-    position: fixed;
-    right: 0;
-    z-index: 0;
-    
-}
-
-
 
 .logoA{
     font-style: italic;
@@ -151,3 +157,86 @@ body{
 }
 
 
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 260px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.toolicon{
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+
+.toolicon img{
+    height: 40px;
+    width: auto; 
+    transition: 0.5s; 
+}
+
+.toolicon img:hover{
+    cursor: default;  
+    transform: translateY(-5px);
+    text-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.20);
+}
+
+
+
+@media only screen and (max-width:600px){
+
+    #landing-page{
+        width: 100%;
+    }
+
+    .pic{
+        height: auto;
+        width: 300px;
+        mix-blend-mode: multiply;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 100px;
+        margin-top: 200px;
+        align-self: center;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        
+    }
+    
+    img{
+        width: 100%;
+        right: 50%;
+    }
+
+    .title1{
+        position:  relative;
+        right: 50%;
+    }
+    
+    .title2{
+        position: relative;
+        right: 50%;
+    }
+
+
+    .toolbar{
+        position: absolute;
+        right: 50%;
+
+    }
+    
+
+}
+    

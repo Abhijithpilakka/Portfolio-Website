@@ -6,6 +6,7 @@
     display: flex;
     min-height: 100vh;
     position: relative;
+    background: #dde1e7;
 }
 
 .expblock{
@@ -13,6 +14,9 @@
     width: 520px;
     height: auto;
     position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 150px;
     align-self: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -28,7 +32,7 @@
     margin: 0;
     border-radius: 10px;
     padding: 8px;
-    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.03);
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
 
 .company-logo{
@@ -84,6 +88,7 @@
     margin-right: 100px;
     right: 0;
     bottom: 0px;
+    margin-bottom: 100px;
 }
 
 
@@ -108,7 +113,7 @@
     grid-template-rows: 30px 35px 1fr;
     padding: 8px ;
     padding-bottom: 8px;
-    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.03);
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
     transition: 0.5s;
 }
 

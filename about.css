@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     min-height: 100vh;
-    background: rgb(20, 20, 20);
+    background: #121212;
     position: relative;
 
 }
@@ -21,10 +21,13 @@
     margin-right: 100px;
 }
 
+.about h1{
+    color: rgba(255, 255, 255, 0.8);
+}
 .about{
     width: 500px;
     text-align: justify;
-    color: rgb(232, 232, 232);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 300;
     font-size: 14px;
     line-height: 25px;
