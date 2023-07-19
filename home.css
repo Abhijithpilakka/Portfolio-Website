@@ -239,7 +239,17 @@ img{
        display: none;
     }
     
-    .header{
+    .Navigation a{
         display: none;
+    }
+
+    .header{
+        height: 30px;
+        padding-left: 15px;
+    }
+    
+    .logo{
+        font-size: 15px;
+        
     }
 }
