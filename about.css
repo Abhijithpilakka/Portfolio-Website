@@ -66,3 +66,33 @@
     cursor: pointer;
     transform: scale(0.95);
 }
+
+
+@media only screen and (max-width:500px){
+
+
+    #about-page{
+        align-items: center;
+    }
+
+
+    .about-block{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 15px;
+        row-gap: 15px;
+        width: 350px;
+        height: fit-content;
+        align-self: center;
+        margin: 8%;
+    }
+
+    .about{
+        width: 350px;
+        text-align: justify;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+
+}
